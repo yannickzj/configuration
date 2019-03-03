@@ -1,0 +1,29 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-j>"],
+            "after": ["<C-d>"]
+        },
+        {
+            "before": ["<C-q>"],
+            "after": ["<C-v>"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<C-u>"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-v>": false,
+        "<C-c>": false,
+        "<C-f>": false
+    },
+    "prettier.tabWidth": 4
+}
